@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
+import AddCard from "./AddCard";
 
 const Main = () => {
   return (
@@ -18,7 +19,7 @@ const Main = () => {
                   ...
                 </button>
               </div>
-              <div className="items flex justify-between items-center bg-stone-600 rounded-md px-2 py-1">
+              <div className="items flex justify-between items-center bg-stone-600 rounded-md px-2 py-1 cursor-pointer hover:scale-95 transition-all duration-300">
                 <span>Project Description</span>
                 <span className="flex justify-start items-start">
                   <button className="hover:bg-green-500 transition-all duration-300 p-1 rounded-lg">
@@ -26,6 +27,9 @@ const Main = () => {
                   </button>
                 </span>
               </div>
+
+
+              <AddCard/>
             </div>
           </div>
         </div>
