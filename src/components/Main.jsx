@@ -30,6 +30,7 @@ const Main = () => {
 
 
               <AddCard/>
+              
             </div>
           </div>
         </div>
