@@ -58,6 +58,7 @@ const SideBar = () => {
                   </div>
                   <div className="flex flex-col items-start w-full">
                     <label htmlFor="title"> Board Title</label>
+                    
                     <input type="text" name="title" id="title" className="h-8 my-2 rounded-md px-2 w-full bg-gray-200 text-black" />
                     <button className=" rounded-md mt-2  px-2 py-1 bg-green-600 hover:bg-green-700 transition-all duration-200"> Create</button>
 
