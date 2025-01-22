@@ -5,6 +5,7 @@ const Header = () => {
       
       
         <h2 className="text-lg font-semibold text-violet-500 pl-8">Trello</h2>
+        
     </div>
   )
 }
